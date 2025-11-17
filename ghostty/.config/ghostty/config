@@ -1,0 +1,3 @@
+# Minimal ghostty config for stowing. Keep defaults unless you want custom options.
+# Set the theme to Dark+
+theme = Dark+

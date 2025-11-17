@@ -1,0 +1,11 @@
+# Ignore local / generated files and OS-specific junk
+.DS_Store
+*.swp
+*.swo
+.env
+.vscode/
+.idea/
+node_modules/
+dist/
+# local zsh os symlink (avoid accidental commits if working dir overlaps home)
+.zsh/os.zsh

@@ -19,6 +19,8 @@ fi
 # Source zsh-autosuggestions from the first available location
 if [ -n "$BREW_PREFIX" ] && [ -f "$BREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh" ]; then
   source "$BREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
+elif [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+  source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 elif [ -f ~/.local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
   source ~/.local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi

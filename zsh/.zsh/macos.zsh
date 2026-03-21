@@ -8,7 +8,7 @@ elif [ -x /usr/local/bin/brew ]; then
 fi
 
 # Add user local bin to PATH (for uv and other Python tools)
-export PATH="$HOME/. local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # NVM: prefer Homebrew-installed nvm, fallback to ~/.nvm
 export NVM_DIR="$HOME/.nvm"

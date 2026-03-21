@@ -1,3 +1,10 @@
 # Minimal ghostty config for stowing. Keep defaults unless you want custom options.
-# Set the theme to Dark+
 theme = Dark+
+
+# Font — uncomment and adjust to taste
+# font-family = "JetBrains Mono"
+# font-size = 13
+
+# Window padding
+window-padding-x = 8
+window-padding-y = 8

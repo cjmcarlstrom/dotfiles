@@ -21,16 +21,6 @@ fi
 [ -d "$HOME/go/bin" ] && PATH="$PATH:$HOME/go/bin"
 export PATH
 
-# git
 alias g='git'
 alias gs='git status'
-alias gl='git log --oneline --graph --decorate -20'
-alias gd='git diff'
-
-# navigation
 alias ll='ls -lah'
-alias ..='cd ..'
-alias ...='cd ../..'
-
-# misc
-alias reload='source ~/.zshrc'

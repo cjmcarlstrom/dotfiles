@@ -1,0 +1,14 @@
+# Shared git config (general-purpose, safe to publish).
+# Personal identity (name/email) is NOT stored here — it lives in
+# ~/.gitconfig.local, which is gitignored. See README for setup.
+[include]
+	path = ~/.gitconfig.local
+[alias]
+	s = status
+	c = commit
+	f = fetch
+	p = pull
+	b = branch
+	wt = worktree
+	ch = checkout
+	sw = switch
